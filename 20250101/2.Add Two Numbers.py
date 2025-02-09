@@ -25,7 +25,6 @@ class Solution(object):
             carry = val // 10
             val = val%10
             cur.next = ListNode(val)
-
             #updates ptrs
             cur = cur.next
             l1 = l1.next if l1 else None
